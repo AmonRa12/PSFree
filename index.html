@@ -6,7 +6,7 @@
         function DisplayCacheProgress(){setTimeout(function(){;document.title="Cache Success !";},1000);setTimeout(function(){window.location.href = document.referrer;},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
     </script>
     <meta charset="UTF-8">
-    <title>PSFree</title>
+    <title>PSFree بالعربي</title>
     <link rel='stylesheet' href='./css/index.css'>
   </head>
   <body>
@@ -16,11 +16,11 @@
       <button class="menu-btn" id="generate-cache-btn">Force-Cache</button>
       <button class="menu-btn" id="update-exploit">Update-Exploit</button>
       <button onclick="showsettings()" class="menu-btn" id="settings-btn">Settings</button>
-      <button onclick="showabout()" class="menu-btn" id="about-btn">About</button>
+      <button onclick="showabout()" class="menu-btn" id="about-btn">عن التعديل</button>
     </div>
 
     <div class="header">
-      <div class="header-title" id="header-title">PSFree</div>
+      <div class="header-title" id="header-title">PSFree بالعربي</div>
     </div>
 
     <pre id="update-results" style="white-space: pre-wrap; margin-top: 10px;"></pre>
@@ -131,13 +131,13 @@
     <!-- About Popup -->
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="about-popup">
-      <h2>About PSFree</h2>
+      <h2>PSFree عن</h2>
       <div>
-        <p>Version: 1.5.1</p>
-        <p>A simple web interface for PS4 jailbreak.</p>
+        <p>اصدار: 1.5.1</p>
+        <p>PS4 واجهة ويب بسيطة لكسر حماية</p>
       </div>
       <div class="credits">
-        <h3>Credits</h3>
+        <h3>الاعتمادات</h3>
         <div class="credits-container">
           <a href="https://github.com/Al-Azif" target="_blank">Al-Azif</a>
           <a href="https://github.com/kmeps4" target="_blank">kmeps4</a>
@@ -147,6 +147,10 @@
           <a href="https://github.com/SiSTR0" target="_blank">SiSTR0</a>
           <a href="https://github.com/EchoStretch" target="_blank">EchoStretch</a>
           <a href="https://github.com/Nazky" target="_blank">Nazky</a>
+        </div>
+        <h3>تم التعريب بواسطة العبدلله</h3>
+        <div class="credits-container">
+        <a href="https://github.com/AmonRa12" target="_blank">AmonRa</a>
         </div>
       </div>
       <button onclick="closeabout()" class="close-btn" id="close-about"></button>
