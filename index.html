@@ -15,8 +15,8 @@
       <button onclick="showpayloads()" class="menu-btn" id="payloadsbtn">Payloads</button>
       <button class="menu-btn" id="generate-cache-btn">Force-Cache</button>
       <button class="menu-btn" id="update-exploit">Update-Exploit</button>
-      <button onclick="showsettings()" class="menu-btn" id="settings-btn">Settings</button>
-      <button onclick="showabout()" class="menu-btn" id="about-btn">عن التعديل</button>
+      <button onclick="showsettings()" class="menu-btn" id="settings-btn">اعدادات</button>
+      <button onclick="showabout()" class="menu-btn" id="about-btn"> عن الثغرة </button>
     </div>
 
     <div class="header">
@@ -25,7 +25,7 @@
 
     <pre id="update-results" style="white-space: pre-wrap; margin-top: 10px;"></pre>
 
-    <h2 id="PS4FW">PS4 FW: 0.00 | Compatible</h2>
+    <h2 id="PS4FW">PS4 FW: 0.00 | سوفت وير جهازك </h2>
 
     <div id="jailbreak-page">
       <div class="center-btn-wrap">
@@ -41,12 +41,11 @@
     
     <div id="payloads-page" style="display: none;">
       <nav class="floating-menu-payloads">
-        <button id="toolb" onclick="showtoolspayloads()">Tools</button>
-        <button id="gameb" onclick="showgamepayloads()">Games</button>
-        <button style="display: none;" id="linuxb" onclick="showlinuxpayloads()">Linux</button>
+        <button id="toolb" onclick="showtoolspayloads()">ادوات</button>
+        <button style="display: none;" id="linuxb" onclick="showlinuxpayloads()">نظام لينكس</button>
       </nav>
       <div id="payloads-tools" style="display: block;">
-        <h2 id="tools">Tools</h2>
+        <h2 id="tools">ادوات</h2>
           <div class="button-container" id="button-container">
             <button id="binloader">Bin-Loader</button>
             <button data-func="load_AppDumper">App-Dumper</button>
@@ -76,47 +75,31 @@
           </div>
       </div>
       <div id="payloads-game" style="display: none;">
-        <h2 id="tools">Game</h2>
-          <div class="button-container" id="button-container">
-            <button data-func="load_GTAArbic">GTAV-ArabicGuy-1.27</button>
-            <button data-func="load_GTAArbic3">GTAV-ArabicGuy-1.32</button>
-            <button data-func="load_GTAArbic33">GTAV-ArabicGuy-1.33</button>
-            <button data-func="load_GTABQ133">GTAV-BeefQueefMod-1.33</button>
-            <button data-func="load_GTABQ134">GTAV-BeefQueefMod-1.34</button>
-            <button data-func="load_GTABQ138">GTAV-BeefQueefMod-1.38</button>
-            <button data-func="load_GTAWM132">GTAV-WildeModz-1.32</button>
-            <button data-func="load_GTAWM133">GTAV-WildeModz-1.33</button>
-            <button data-func="load_GTAWM138">GTAV-WildeModz-1.38</button>
-            <button data-func="load_Oysters100">RDR2-OystersMenu-1.00</button>
-            <button data-func="load_Oysters113">RDR2-OystersMenu-1.13</button>
-            <button data-func="load_Oysters119">RDR2-OystersMenu-1.19</button>
-            <button data-func="load_Oysters124">RDR2-OystersMenu-1.24</button>
-            <button data-func="load_Oysters124">RDR2-OystersMenu-1.29</button>
-          </div>
+
       </div>
       <div id="payloads-linux" style="display: none;">
-          <h2 id="tools">Linux</h2>
+          <h2 id="tools">نظام لينكس</h2>
           <div class="button-container" id="button-container">
             <h2 style="text-align: center;">PS4</h2>
-            <button data-func="load_Linux">1GBVram</button>
-            <button data-func="load_Linux2gb">2GBVram</button>
-            <button data-func="load_Linux3gb">3GBVram</button>
-            <button data-func="load_Linux4gb">4GBVram</button>
+            <button data-func="load_Linux">1 جيجا رام</button>
+            <button data-func="load_Linux2gb">2 جيجا رام</button>
+            <button data-func="load_Linux3gb">3 جيجا رام</button>
+            <button data-func="load_Linux4gb">4 جيجا رام</button>
             <h2 style="text-align: center;">PS4-PRO</h2>
-            <button data-func="load_Linux_PRO">1GBVram</button>
-            <button data-func="load_Linux2gb_PRO">2GBVram</button>
-            <button data-func="load_Linux3gb_PRO">3GBVram</button>
-            <button data-func="load_Linux4gb_PRO">4GBVram</button>
+            <button data-func="load_Linux_PRO">1 جيجا رام</button>
+            <button data-func="load_Linux2gb_PRO">2 جيجا رام</button>
+            <button data-func="load_Linux3gb_PRO">3 جيجا رام</button>
+            <button data-func="load_Linux4gb_PRO">4 جيجا رام</button>
             <h2 style="text-align: center;">PS4-Baikal</h2>
-            <button data-func="load_Linux_Baikal">1GBVram</button>
-            <button data-func="load_Linux2gb_Baikal">2GBVram</button>
-            <button data-func="load_Linux3gb_Baikal">3GBVram</button>
-            <button data-func="load_Linux4gb_Baikal">4GBVram</button>
+            <button data-func="load_Linux_Baikal">1 جيجا رام</button>
+            <button data-func="load_Linux2gb_Baikal">2 جيجا رام</button>
+            <button data-func="load_Linux3gb_Baikal">3 جيجا رام</button>
+            <button data-func="load_Linux4gb_Baikal">4 جيجا رام</button>
             <h2 style="text-align: center;">PS4-Baikal-PRO</h2>
-            <button data-func="load_Linux_PRO_Baikal">1GBVram</button>
-            <button data-func="load_Linux2gb_PRO_Baikal">2GBVram</button>
-            <button data-func="load_Linux3gb_PRO_Baikal">3GBVram</button>
-            <button data-func="load_Linux4gb_PRO_Baikal">4GBVram</button>
+            <button data-func="load_Linux_PRO_Baikal">1 جيجا رام</button>
+            <button data-func="load_Linux2gb_PRO_Baikal">2 جيجا رام</button>
+            <button data-func="load_Linux3gb_PRO_Baikal">3 جيجا رام</button>
+            <button data-func="load_Linux4gb_PRO_Baikal">4 جيجا رام</button>
           </div>
       </div>
     </div>
@@ -131,13 +114,13 @@
     <!-- About Popup -->
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="about-popup">
-      <h2>PSFree عن</h2>
+      <h2> PSFree عن ثغرة </h2>
       <div>
         <p>اصدار: 1.5.1</p>
         <p>PS4 واجهة ويب بسيطة لكسر حماية</p>
       </div>
       <div class="credits">
-        <h3>الاعتمادات</h3>
+        <h3>تم التطوير بواسطة</h3>
         <div class="credits-container">
           <a href="https://github.com/Al-Azif" target="_blank">Al-Azif</a>
           <a href="https://github.com/kmeps4" target="_blank">kmeps4</a>
@@ -159,11 +142,11 @@
     <!-- Settings Popup -->
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="settings-popup">
-      <h2>Settings PSFree</h2>
+      <h2> الاعدادات </h2>
       <div class="main-container">
         <div class="listfw-container">
           <div class="settings-container">
-            <h3>PS4 Firmwares supported</h3>
+            <h3>السوفتات المدعومة</h3>
             <div id="listfw">
               <p>7.00</p>
               <p>7.01</p>
@@ -188,29 +171,29 @@
         
         <div class="choosejb-container">
           <div class="settings-container">
-            <h3>Choose your flavor</h3>
+            <h3>اختار التعديلة</h3>
             <div class="radio-group">
               <label>
-                <input type="radio" name="hen" value="GoldHEN" onchange="savejbflavor(); choosejb('GoldHEN')"> GoldHEN
+                <input type="radio" name="hen" value="GoldHEN" onchange="savejbflavor(); choosejb('GoldHEN')"> الجولد هين
               </label>
               <label>
-                <input type="radio" name="hen" value="HEN" onchange="savejbflavor(); choosejb('HEN')"> HEN
+                <input type="radio" name="hen" value="HEN" onchange="savejbflavor(); choosejb('HEN')"> الهين
               </label>
             </div>
               <label>
                 <input type="checkbox" id="ckbaj" />
-                <span>Auto-Jailbreak</span>
+                <span>التعديل تلقائي</span>
               </label>
               <label>
                 <input type="checkbox" id="ckbdc" checked />
-                <span>Enable Debug Console</span>
+                <span>تفعيل الديبوك كونسول</span>
               </label>
           </div>
         </div>
       </div>
       
       <div class="button-container">
-        <button data-func="load_PSFreeFix" class="install-psfrf" id="install-psfrf" style="display: none;">Install PSFree-Fix</button>
+        <button data-func="load_PSFreeFix" class="install-psfrf" id="install-psfrf" style="display: none;">حل مشاكل الثغرة</button>
       </div>
       <button onclick="closesettings()" class="close-btn" id="close-settings"></button>
     </div>
