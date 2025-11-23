@@ -13,8 +13,6 @@
     <!-- Floating Menu -->
     <div class="floating-menu">
       <button onclick="showpayloads()" class="menu-btn" id="payloadsbtn">الحمولات</button>
-      <button class="menu-btn" id="generate-cache-btn">Force-Cache</button>
-      <button class="menu-btn" id="update-exploit">Update-Exploit</button>
       <button onclick="showsettings()" class="menu-btn" id="settings-btn">اعدادات</button>
       <button onclick="showabout()" class="menu-btn" id="about-btn">عن الثغرة</button>
     </div>
@@ -152,7 +150,7 @@
             </div>
               <label>
                 <input type="checkbox" id="ckbaj" />
-                <span>التعديل تلقائي</span>
+                <span>التعديل تلقائيًا</span>
               </label>
               <label>
                 <input type="checkbox" id="ckbdc" checked />
@@ -163,7 +161,7 @@
       </div>
       
       <div class="button-container">
-        <button data-func="load_PSFreeFix" class="install-psfrf" id="install-psfrf" style="display: none;">تثبيت ملفات حل مشاكل الثغرة</button>
+        <button data-func="load_PSFreeFix" class="install-psfrf" id="install-psfrf" style="display: none;">تثبيت ملفات لحل مشاكل الثغرة</button>
       </div>
       <button onclick="closesettings()" class="close-btn" id="close-settings"></button>
     </div>
