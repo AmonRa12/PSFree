@@ -12,15 +12,15 @@
   <body>
     <!-- Floating Menu -->
     <div class="floating-menu">
-      <button onclick="showpayloads()" class="menu-btn" id="payloadsbtn">Payloads</button>
+      <button onclick="showpayloads()" class="menu-btn" id="payloadsbtn">الحمولات</button>
       <button class="menu-btn" id="generate-cache-btn">Force-Cache</button>
       <button class="menu-btn" id="update-exploit">Update-Exploit</button>
-      <button onclick="showsettings()" class="menu-btn" id="settings-btn">Settings</button>
-      <button onclick="showabout()" class="menu-btn" id="about-btn">About</button>
+      <button onclick="showsettings()" class="menu-btn" id="settings-btn">الإعدادات</button>
+      <button onclick="showabout()" class="menu-btn" id="about-btn">عن الثغرة</button>
     </div>
 
     <div class="header">
-      <div class="header-title" id="header-title">PSFree</div>
+      <div class="header-title" id="header-title">PSFree بالعربي</div>
     </div>
 
     <pre id="update-results" style="white-space: pre-wrap; margin-top: 10px;"></pre>
@@ -41,12 +41,12 @@
     
     <div id="payloads-page" style="display: none;">
       <nav class="floating-menu-payloads">
-        <button id="toolb" onclick="showtoolspayloads()">Tools</button>
+        <button id="toolb" onclick="showtoolspayloads()">الادوات</button>
         <button id="gameb" onclick="showgamepayloads()">Games</button>
-        <button style="display: none;" id="linuxb" onclick="showlinuxpayloads()">Linux</button>
+        <button style="display: none;" id="linuxb" onclick="showlinuxpayloads()">لينكس</button>
       </nav>
       <div id="payloads-tools" style="display: block;">
-        <h2 id="tools">Tools</h2>
+        <h2 id="tools">الادوات</h2>
           <div class="button-container" id="button-container">
             <button id="binloader">Bin-Loader</button>
             <button data-func="load_AppDumper">App-Dumper</button>
@@ -95,7 +95,7 @@
           </div>
       </div>
       <div id="payloads-linux" style="display: none;">
-          <h2 id="tools">Linux</h2>
+          <h2 id="tools">لينكس</h2>
           <div class="button-container" id="button-container">
             <h2 style="text-align: center;">PS4</h2>
             <button data-func="load_Linux">1GBVram</button>
@@ -131,13 +131,13 @@
     <!-- About Popup -->
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="about-popup">
-      <h2>About PSFree</h2>
+      <h2>عن الثغرة</h2>
       <div>
-        <p>Version: 1.5.1</p>
-        <p>A simple web interface for PS4 jailbreak.</p>
+        <p>إصدار : 1.5.1</p>
+        <p> PS4 واجهة ويب بسيطة لكسر حماية </p>
       </div>
       <div class="credits">
-        <h3>Credits</h3>
+        <h3>تم التطوير بواسطة</h3>
         <div class="credits-container">
           <a href="https://github.com/Al-Azif" target="_blank">Al-Azif</a>
           <a href="https://github.com/kmeps4" target="_blank">kmeps4</a>
@@ -148,6 +148,11 @@
           <a href="https://github.com/EchoStretch" target="_blank">EchoStretch</a>
           <a href="https://github.com/Nazky" target="_blank">Nazky</a>
         </div>
+        <h3>تم التعريب بواسطة العبدلله</h3>
+          <div class="credits-container">
+            <a href="https://github.com/AmonRa12" target="_blank">AmonRa</a>
+          </div>
+
       </div>
       <button onclick="closeabout()" class="close-btn" id="close-about"></button>
     </div>
@@ -155,11 +160,11 @@
     <!-- Settings Popup -->
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="settings-popup">
-      <h2>Settings PSFree</h2>
+      <h2> الإعدادات </h2>
       <div class="main-container">
         <div class="listfw-container">
           <div class="settings-container">
-            <h3>PS4 Firmwares supported</h3>
+            <h3> السوفتات المدعومة </h3>
             <div id="listfw">
               <p>7.00</p>
               <p>7.01</p>
@@ -184,29 +189,29 @@
         
         <div class="choosejb-container">
           <div class="settings-container">
-            <h3>Choose your flavor</h3>
+            <h3> اختار التعديلة </h3>
             <div class="radio-group">
               <label>
-                <input type="radio" name="hen" value="GoldHEN" onchange="savejbflavor(); choosejb('GoldHEN')"> GoldHEN
+                <input type="radio" name="hen" value="GoldHEN" onchange="savejbflavor(); choosejb('GoldHEN')"> الجولد هين
               </label>
               <label>
-                <input type="radio" name="hen" value="HEN" onchange="savejbflavor(); choosejb('HEN')"> HEN
+                <input type="radio" name="hen" value="HEN" onchange="savejbflavor(); choosejb('HEN')"> الهين 
               </label>
             </div>
               <label>
                 <input type="checkbox" id="ckbaj" />
-                <span>Auto-Jailbreak</span>
+                <span> التعديل تلقائيًا </span>
               </label>
               <label>
                 <input type="checkbox" id="ckbdc" checked />
-                <span>Enable Debug Console</span>
+                <span> تفعيل الديبوك كونسول </span>
               </label>
           </div>
         </div>
       </div>
       
       <div class="button-container">
-        <button data-func="load_PSFreeFix" class="install-psfrf" id="install-psfrf" style="display: none;">Install PSFree-Fix</button>
+        <button data-func="load_PSFreeFix" class="install-psfrf" id="install-psfrf" style="display: none;"> تثبيت ملفات لحل مشاكل الثغرة </button>
       </div>
       <button onclick="closesettings()" class="close-btn" id="close-settings"></button>
     </div>
