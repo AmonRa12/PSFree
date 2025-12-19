@@ -17,6 +17,7 @@
       <button class="menu-btn" id="update-exploit">Update-Exploit</button>
       <button onclick="showsettings()" class="menu-btn" id="settings-btn">الإعدادات</button>
       <button onclick="showabout()" class="menu-btn" id="about-btn">عن الثغرة</button>
+      <button onclick="showex()" class="menu-btn" id="ex-btn">شرح الادوات</button>
     </div>
 
     <div class="header">
@@ -155,6 +156,200 @@
 
       </div>
       <button onclick="closeabout()" class="close-btn" id="close-about"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="ex-popup">
+      <h2>شرح الادوات</h2>
+      <div class="credits">
+        <div class="credits-container2">
+          <button onclick="show1()" id="1-btn">Bin-Loader</button>
+          <button onclick="show2()" id="2-btn">App-Dumper</button>
+          <button onclick="show3()" id="3-btn">Kernel-Dumper</button>
+          <button onclick="show4()" id="4-btn">PS4-Dumper-VTX</button>
+          <button onclick="show5()" id="5-btn">App2USB</button>
+          <button onclick="show6()" id="6-btn">Disable-Updates</button>
+          <button onclick="show7()" id="7-btn">Enable-Updates</button>
+          <button onclick="show8()" id="8-btn">FTP</button>
+          <button onclick="show9()" id="9-btn">History-Blocker</button>
+          <button onclick="show10()" id="10-btn">Kernel-Clock</button>
+          <button onclick="show11()" id="11-btn">PS4-Debug</button>
+          <button onclick="show12()" id="12-btn">ToDex</button>
+          <button onclick="show13()" id="13-btn">ToDev</button>
+          <button onclick="show14()" id="14-btn">ToKratos</button>
+          <button onclick="show15()" id="15-btn">ToCex</button>
+          <button onclick="show16()" id="16-btn">Backup-DB</button>
+          <button onclick="show17()" id="17-btn">Restore-DB</button>
+          <button onclick="show18()" id="18-btn">RIF-Renamer</button>
+          <button onclick="show19()" id="19-btn">ExitIDU</button>
+          <button onclick="show20()" id="20-btn">Disable-ASLR</button>
+          <button onclick="show21()" id="21-btn">Module-Dumper</button>
+          <button onclick="show22()" id="22-btn">Permanent-UART</button>
+          <button onclick="show23()" id="23-btn">PUP-Decrypt</button>
+        </div>
+      </div>
+      <button onclick="closeex()" class="close-btn" id="close-ex"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="1-popup">
+      <h2>Bin-Loader</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close1()" class="close-btn" id="close-1"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="2-popup">
+      <h2>App-Dumper</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close2()" class="close-btn" id="close-2"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="3-popup">
+      <h2>Kernel-Dumper</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close3()" class="close-btn" id="close-3"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="4-popup">
+      <h2>PS4-Dumper-VTX</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close4()" class="close-btn" id="close-4"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="5-popup">
+      <h2>App2USB</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close5()" class="close-btn" id="close-5"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="6-popup">
+      <h2>Disable-Updates</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close6()" class="close-btn" id="close-6"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="7-popup">
+      <h2>Enable-Updates</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close7()" class="close-btn" id="close-7"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="8-popup">
+      <h2>FTP</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close8()" class="close-btn" id="close-8"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="9-popup">
+      <h2>History-Blocker</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close9()" class="close-btn" id="close-9"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="10-popup">
+      <h2>Kernel-Clock</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close10()" class="close-btn" id="close-10"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="11-popup">
+      <h2>PS4-Debug</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close11()" class="close-btn" id="close-11"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="12-popup">
+      <h2>ToDex</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close12()" class="close-btn" id="close-12"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="13-popup">
+      <h2>ToDev</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close13()" class="close-btn" id="close-13"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="14-popup">
+      <h2>ToKratos</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close14()" class="close-btn" id="close-14"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="15-popup">
+      <h2>ToCex</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close15()" class="close-btn" id="close-15"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="16-popup">
+      <h2>Backup-DB</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close16()" class="close-btn" id="close-16"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="17-popup">
+      <h2>Restore-DB</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close17()" class="close-btn" id="close-17"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="18-popup">
+      <h2>RIF-Renamer</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close18()" class="close-btn" id="close-18"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="19-popup">
+      <h2>ExitIDU</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close19()" class="close-btn" id="close-19"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="20-popup">
+      <h2>Disable-ASLR</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close20()" class="close-btn" id="close-20"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="21-popup">
+      <h2>Module-Dumper</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close21()" class="close-btn" id="close-21"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="22-popup">
+      <h2>Permanent-UART</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close22()" class="close-btn" id="close-22"></button>
+    </div>
+
+    <div class="overlay" id="overlay-popup"></div>
+    <div class="popup" id="23-popup">
+      <h2>PUP-Decrypt</h2>
+      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <button onclick="close23()" class="close-btn" id="close-23"></button>
     </div>
 
     <!-- Settings Popup -->
