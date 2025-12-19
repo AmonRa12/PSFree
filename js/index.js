@@ -91,6 +91,223 @@ function closeabout() {
   document.getElementById('overlay-popup').style.display = 'none'; // Hide overlay
 }
 
+function showex() {
+  document.getElementById('ex-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function closeex() {
+  document.getElementById('ex-popup').style.display = 'none'; // Hide popup
+  document.getElementById('overlay-popup').style.display = 'none'; // Hide overlay
+}
+
+function show1() {
+  document.getElementById('1-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close1() {
+  document.getElementById('1-popup').style.display = 'none'; // Hide popup
+}
+
+function show2() {
+  document.getElementById('2-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close2() {
+  document.getElementById('2-popup').style.display = 'none'; // Hide popup
+}
+
+function show3() {
+  document.getElementById('3-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close3() {
+  document.getElementById('3-popup').style.display = 'none'; // Hide popup
+}
+
+function show4() {
+  document.getElementById('4-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close4() {
+  document.getElementById('4-popup').style.display = 'none'; // Hide popup
+}
+
+function show5() {
+  document.getElementById('5-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close5() {
+  document.getElementById('5-popup').style.display = 'none'; // Hide popup
+}
+
+function show6() {
+  document.getElementById('6-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close6() {
+  document.getElementById('6-popup').style.display = 'none'; // Hide popup
+}
+
+function show7() {
+  document.getElementById('7-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close7() {
+  document.getElementById('7-popup').style.display = 'none'; // Hide popup
+}
+
+function show8() {
+  document.getElementById('8-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close8() {
+  document.getElementById('8-popup').style.display = 'none'; // Hide popup
+}
+
+function show9() {
+  document.getElementById('9-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close9() {
+  document.getElementById('9-popup').style.display = 'none'; // Hide popup
+}
+
+function show10() {
+  document.getElementById('10-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close10() {
+  document.getElementById('10-popup').style.display = 'none'; // Hide popup
+}
+
+function show11() {
+  document.getElementById('11-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close11() {
+  document.getElementById('11-popup').style.display = 'none'; // Hide popup
+}
+
+function show12() {
+  document.getElementById('12-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close12() {
+  document.getElementById('12-popup').style.display = 'none'; // Hide popup
+}
+
+function show13() {
+  document.getElementById('13-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close13() {
+  document.getElementById('13-popup').style.display = 'none'; // Hide popup
+}
+
+function show14() {
+  document.getElementById('14-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close14() {
+  document.getElementById('14-popup').style.display = 'none'; // Hide popup
+}
+
+function show15() {
+  document.getElementById('15-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close15() {
+  document.getElementById('15-popup').style.display = 'none'; // Hide popup
+}
+
+function show16() {
+  document.getElementById('16-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close16() {
+  document.getElementById('16-popup').style.display = 'none'; // Hide popup
+}
+
+function show17() {
+  document.getElementById('17-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close17() {
+  document.getElementById('17-popup').style.display = 'none'; // Hide popup
+}
+
+function show18() {
+  document.getElementById('18-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close18() {
+  document.getElementById('18-popup').style.display = 'none'; // Hide popup
+}
+
+function show19() {
+  document.getElementById('19-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close19() {
+  document.getElementById('19-popup').style.display = 'none'; // Hide popup
+}
+
+function show20() {
+  document.getElementById('20-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close20() {
+  document.getElementById('20-popup').style.display = 'none'; // Hide popup
+}
+
+function show21() {
+  document.getElementById('21-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close21() {
+  document.getElementById('21-popup').style.display = 'none'; // Hide popup
+}
+
+function show22() {
+  document.getElementById('22-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close22() {
+  document.getElementById('22-popup').style.display = 'none'; // Hide popup
+}
+
+function show23() {
+  document.getElementById('23-popup').style.display = 'flex'; // Show popup
+  document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
+}
+
+function close23() {
+  document.getElementById('23-popup').style.display = 'none'; // Hide popup
+}
+
 function showsettings() {
   document.getElementById('settings-popup').style.display = 'flex'; // Show popup
   document.getElementById('overlay-popup').style.display = 'block'; // Show overlay
