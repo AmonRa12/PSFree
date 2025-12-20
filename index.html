@@ -43,8 +43,6 @@
     <div id="payloads-page" style="display: none;">
       <nav class="floating-menu-payloads">
         <button id="toolb" onclick="showtoolspayloads()">الادوات</button>
-        <button id="gameb" onclick="showgamepayloads()">Games</button>
-        <button style="display: none;" id="linuxb" onclick="showlinuxpayloads()">لينكس</button>
       </nav>
       <div id="payloads-tools" style="display: block;">
         <h2 id="tools">الادوات</h2>
@@ -76,51 +74,8 @@
             <button data-func="load_PUPDecrypt">PUP-Decrypt</button>
           </div>
       </div>
-      <div id="payloads-game" style="display: none;">
-        <h2 id="tools">Game</h2>
-          <div class="button-container" id="button-container">
-            <button data-func="load_GTAArbic">GTAV-ArabicGuy-1.27</button>
-            <button data-func="load_GTAArbic3">GTAV-ArabicGuy-1.32</button>
-            <button data-func="load_GTAArbic33">GTAV-ArabicGuy-1.33</button>
-            <button data-func="load_GTABQ133">GTAV-BeefQueefMod-1.33</button>
-            <button data-func="load_GTABQ134">GTAV-BeefQueefMod-1.34</button>
-            <button data-func="load_GTABQ138">GTAV-BeefQueefMod-1.38</button>
-            <button data-func="load_GTAWM132">GTAV-WildeModz-1.32</button>
-            <button data-func="load_GTAWM133">GTAV-WildeModz-1.33</button>
-            <button data-func="load_GTAWM138">GTAV-WildeModz-1.38</button>
-            <button data-func="load_Oysters100">RDR2-OystersMenu-1.00</button>
-            <button data-func="load_Oysters113">RDR2-OystersMenu-1.13</button>
-            <button data-func="load_Oysters119">RDR2-OystersMenu-1.19</button>
-            <button data-func="load_Oysters124">RDR2-OystersMenu-1.24</button>
-            <button data-func="load_Oysters124">RDR2-OystersMenu-1.29</button>
-          </div>
-      </div>
-      <div id="payloads-linux" style="display: none;">
-          <h2 id="tools">لينكس</h2>
-          <div class="button-container" id="button-container">
-            <h2 style="text-align: center;">PS4</h2>
-            <button data-func="load_Linux">1GBVram</button>
-            <button data-func="load_Linux2gb">2GBVram</button>
-            <button data-func="load_Linux3gb">3GBVram</button>
-            <button data-func="load_Linux4gb">4GBVram</button>
-            <h2 style="text-align: center;">PS4-PRO</h2>
-            <button data-func="load_Linux_PRO">1GBVram</button>
-            <button data-func="load_Linux2gb_PRO">2GBVram</button>
-            <button data-func="load_Linux3gb_PRO">3GBVram</button>
-            <button data-func="load_Linux4gb_PRO">4GBVram</button>
-            <h2 style="text-align: center;">PS4-Baikal</h2>
-            <button data-func="load_Linux_Baikal">1GBVram</button>
-            <button data-func="load_Linux2gb_Baikal">2GBVram</button>
-            <button data-func="load_Linux3gb_Baikal">3GBVram</button>
-            <button data-func="load_Linux4gb_Baikal">4GBVram</button>
-            <h2 style="text-align: center;">PS4-Baikal-PRO</h2>
-            <button data-func="load_Linux_PRO_Baikal">1GBVram</button>
-            <button data-func="load_Linux2gb_PRO_Baikal">2GBVram</button>
-            <button data-func="load_Linux3gb_PRO_Baikal">3GBVram</button>
-            <button data-func="load_Linux4gb_PRO_Baikal">4GBVram</button>
-          </div>
-      </div>
     </div>
+      
     
     <div id="DebugConsole">
       <h3>Debug Console</h3>
@@ -194,35 +149,63 @@
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="1-popup">
       <h2>Bin-Loader</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+     Disable-Updates  مثل .bin  يشغل ملفات 
+      </h3>
+      <h3>
+        ملهوش لزمة في اصدارات الجولد هين الجديد عشان ممكن تفعله من الاعدادات
+      </h3>
+      <h4>
+     Enable BinLoader Server ثم فعل خيار  servers settings ثم Goldhen ادخل قائمة  
+      </h4>
       <button onclick="close1()" class="close-btn" id="close-1"></button>
     </div>
 
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="2-popup">
       <h2>App-Dumper</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+        بيعمل نسخ للالعاب والتطبيقات كلها ولازم تعمل حاجات عشان تنسخ العاب معينة فقط
+     </h3>
+     <h4>
+    بيعمل نفس الوظيفة وافضل للمبتدئين Itemzflow يوجد تطبيق اسمه
+     </h4>
       <button onclick="close2()" class="close-btn" id="close-2"></button>
     </div>
 
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="3-popup">
       <h2>Kernel-Dumper</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+     (نواة النظام) Kernel يستخرج ال
+     </h3>
+     <h4>
+      خاص بالمطورين فقط متلعبش فيه تمام 
+     </h4>
       <button onclick="close3()" class="close-btn" id="close-3"></button>
     </div>
 
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="4-popup">
       <h2>PS4-Dumper-VTX</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+      اسرع وأثبت App-Dumper نسخة افضل من
+      </h3>
       <button onclick="close4()" class="close-btn" id="close-4"></button>
     </div>
 
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="5-popup">
       <h2>App2USB</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+     بينقل الالعاب من الهارد الداخلي للهارد الخارجي عشان توفر مساحة , ميزته انه مبيفرمتش الهارد الخارجي , بس تشغل اللعبة على نفس الجهاز مش جهاز تاني
+      </h3>
+      <h4>
+       (هو تلقائي بينقل كل الالعاب) لازم الهارد الخارجي يكون فيه مساحة كافية للالعاب اللي هتنقلها
+      </h4>
+      <h4>
+      واوعى يفصل وانت بتنقل او بتلعب عشان ممكن اللعبة تتمسح exFAT الهارد لازم يكون فورمات
+      </h4>
       <button onclick="close5()" class="close-btn" id="close-5"></button>
     </div>
 
@@ -230,125 +213,216 @@
     <div class="popup" id="6-popup">
       <h2>Disable-Updates</h2>
       <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h4>
+       Enable-Updates بتفعلها مرة واحدة فقط ولو عايز تلغيها دوس 
+      </h4>
       <button onclick="close6()" class="close-btn" id="close-6"></button>
     </div>
 
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="7-popup">
       <h2>Enable-Updates</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+       بتفعلها لو عايز تحدث النظام Disable-Updates عكس 
+      </h3>
+      <h4>
+        ده لو طفشت من التعديلة وعايز تلعب اونلاين غير كده متقربش منها
+      </h4>
       <button onclick="close7()" class="close-btn" id="close-7"></button>
     </div>
 
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="8-popup">
       <h2>FTP</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+        بيعمل سيرفر للاتصال بالكمبيوتر ولنقل الملفات
+      </h3>
+      <h4>
+    Enable FTP server ثم servers settings ثم Goldhen الافضل تفعله من اعدادات الجولدهين عشان يبقى مستقر وأسرع ادخل لقائمة  
+      </h4>
+      <h4>
+    او الانالوج الشمال L3 وتدوس على زرار File Explorer ولو مبتدئ ممكن تستخدم تطبيق 
+      </h4>
       <button onclick="close8()" class="close-btn" id="close-8"></button>
     </div>
 
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="9-popup">
       <h2>History-Blocker</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+        بيمنع حفظ سجل التصفح عشان يقلل من مشاكل صفحة التعديلة
+      </h3>
       <button onclick="close9()" class="close-btn" id="close-9"></button>
     </div>
 
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="10-popup">
       <h2>Kernel-Clock</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+        بيتحكم في سرعة المعالج وكارت الشاشة واحيانًا الرامات
+      </h3>
+      <h4>
+       ممكن يبوظ الجهاز لو انت مش عارف بتعمل ايه
+      </h4>
       <button onclick="close10()" class="close-btn" id="close-10"></button>
     </div>
 
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="11-popup">
       <h2>PS4-Debug</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+     واستهلاك المعالج وكارت الشاشة وحاجات تانية FPS بيظهر ال
+      </h3>
+      <h4>
+     Enable FPS Counter ثم فعل خيار Game Overlay ثم Goldhen ممكن تفعله من اعدادات الجولد هين افضل ادخل قائمة 
+      </h4>
       <button onclick="close11()" class="close-btn" id="close-11"></button>
     </div>
 
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="12-popup">
       <h2>ToDex</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+       بيغير النظام من منزلي للمطورين بيفتح اعدادات خاصة للمطورين وخطر للمستخدم العادي
+      </h3>
+      <h3>
+        بيمسح ملفات الحفظ بتاعة الالعاب وممكن يحذف بعض الالعاب
+      </h3>
+      <h4>
+      خاص بالمطورين فقط متلعبش فيه تمام 
+     </h4>
       <button onclick="close12()" class="close-btn" id="close-12"></button>
     </div>
 
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="13-popup">
       <h2>ToDev</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+     بيغير النظام من منزلي للمطورين بيفتح اعدادات اقل خاصة للمطورين وخطر للمستخدم العادي
+      </h3>
+      <h3>
+        بيمسح ملفات الحفظ بتاعة الالعاب وممكن يحذف بعض الالعاب
+      </h3>
+      <h4>
+      خاص بالمطورين فقط متلعبش فيه تمام 
+     </h4>
       <button onclick="close13()" class="close-btn" id="close-13"></button>
     </div>
 
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="14-popup">
       <h2>ToKratos</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+       بيغير النظام من منزلي لوضع تجريبي وخطر للمستخدم العادي 
+      </h3>
+      <h3>
+        بيمسح ملفات الحفظ بتاعة الالعاب وممكن يحذف بعض الالعاب
+      </h3>
+      <h4>
+      خاص بالمطورين فقط متلعبش فيه تمام 
+     </h4>
       <button onclick="close14()" class="close-btn" id="close-14"></button>
     </div>
 
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="15-popup">
       <h2>ToCex</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+        بيرجع النظام للوضع المنزلي العادي تاني
+      </h3>
       <button onclick="close15()" class="close-btn" id="close-15"></button>
     </div>
 
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="16-popup">
       <h2>Backup-DB</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+        بيعمل نسخ احتياطي للنظام والالعاب وكل حاجة
+      </h3>
       <button onclick="close16()" class="close-btn" id="close-16"></button>
     </div>
 
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="17-popup">
       <h2>Restore-DB</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+        بياخد النسخة الاحتياطية ويرجعها للجهاز
+      </h3>
+      <h4>
+        لازم يكون النسخة الاحتياطية اتاخدت من نفس الجهاز مش من جهاز تاني عشان متبوظش الجهاز
+      </h4>
       <button onclick="close17()" class="close-btn" id="close-17"></button>
     </div>
 
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="18-popup">
       <h2>RIF-Renamer</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+        تستخدمه لو في لعبة في حسابك عليها قفل او حطيت اللعبة على جهاز تاني بس نفس الحساب وبقى عليها قفل
+      </h3>
+      <h4>
+        لكن لازم تكون اللعبة موجودة على نفس الحساب غير كده بلح
+      </h4>
       <button onclick="close18()" class="close-btn" id="close-18"></button>
     </div>
 
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="19-popup">
       <h2>ExitIDU</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+        ده بيحل مشكلة في الجهاز لو هو في وضع المتاجر وبيظهر فيه اعلانات كتير
+      </h3>
+      <h4>
+        لو المشكلة دي مش عندك اوعى تفعلها
+      </h4>
       <button onclick="close19()" class="close-btn" id="close-19"></button>
     </div>
 
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="20-popup">
       <h2>Disable-ASLR</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+        بيقفل خاصية حماية العناوين العشوائية
+      </h3>
+      <h4>
+        خاص بالهكرز واللي بيعملوا مودات لو انت مستخدم عادي متفعلهوش
+      </h4>
       <button onclick="close20()" class="close-btn" id="close-20"></button>
     </div>
 
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="21-popup">
       <h2>Module-Dumper</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+        خاص بصناع المودات والمطورين فقط
+      </h3>
+      <h4>
+        لو انت مستخدم عادي اوعى تفعلها هتبقى خطر عليك
+      </h4>
       <button onclick="close21()" class="close-btn" id="close-21"></button>
     </div>
 
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="22-popup">
       <h2>Permanent-UART</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+      دائمًا UART يفتح منفذ
+      </h3>
+      <h4>
+        خاص بالمطورين فقط متلعبش فيه تمام 
+      </h4>
       <button onclick="close22()" class="close-btn" id="close-22"></button>
     </div>
 
     <div class="overlay" id="overlay-popup"></div>
     <div class="popup" id="23-popup">
       <h2>PUP-Decrypt</h2>
-      <h3>يقفل تحديثات النظام نهائيًا</h3>
+      <h3>
+        بيفك تشفير ملفات تحديث النظام
+      </h3>
+      <h4>
+        خاص بالمطورين فقط متلعبش فيه تمام 
+      </h4>
       <button onclick="close23()" class="close-btn" id="close-23"></button>
     </div>
 
