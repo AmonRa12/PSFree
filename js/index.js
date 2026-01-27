@@ -322,7 +322,7 @@ function CheckFW() {
   const userAgent = navigator.userAgent;
   const ps4Regex = /PlayStation(?:;\s*PlayStation)?(?: 4\/| 4 )?(\d+\.\d+)/;
   const elementsToHide = [
-    'jailbreak-page', 'jailbreak', 'autojbchkb', 'agtext',
+     'jailbreak-page', 'jailbreak', 'autojbchkb', 'agtext',
     'payloadsbtn', 'generate-cache-btn', 'update-exploit', 'settings-btn'
   ];
   
@@ -491,6 +491,12 @@ function showpayloads() {
 
 function showtoolspayloads() {
   document.getElementById('payloads-tools').style.display = 'block';
+  document.getElementById('payloads-game').style.display = 'none';
+}
+
+function showgamepayloads() {
+  document.getElementById('payloads-game').style.display = 'block';
+  document.getElementById('payloads-tools').style.display = 'none';
 }
 
 function loadjbflavor() {
