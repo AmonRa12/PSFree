@@ -344,7 +344,7 @@ function CheckFW() {
       ps4fw = fwVersion.replace('.', '');
       document.getElementById('install-psfrf').style.display = 'flex';
       if (ps4fw === '903' || ps4fw === '960') {
-        document.getElementById('gameb').style.display = 'none';
+        document.getElementById('gameb').style.display = 'flex';
       }
       if (ps4fw === '900' || ps4fw === '903' || ps4fw === '960'){
         document.getElementById('linuxb').style.display = 'flex';
